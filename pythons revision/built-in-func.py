@@ -55,4 +55,6 @@ sum()	Sums start and the items of an iterable.
 super()	Return a proxy object that delegates method calls to a parent or sibling.
 tuple()	Rather than being a function, is actually an immutable sequence type.
 type()	Return the type of an object.
+zip()	Iterate over several iterables in parallel.
+import()	This function is invoked by the import statement.
 '''
