@@ -6,3 +6,8 @@ print(10 / 5)
 print(100 // 10)
 print(9 ** 2)
 print(6 % 2)
+
+# Augmented assignment operator
+greeting = 'Hello'
+greeting += ' ' + 'World'
+print(greeting)
