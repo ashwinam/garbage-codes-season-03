@@ -1,0 +1,24 @@
+<!-- Dcoker Theories -->
+
+### What is Docker?
+
+A platform for building, running and shipping applications.
+
+- Problems docker solves:
+  - application works on one machine and not works on another machine.
+
+So its an isolated environment, where everything is segregated like all dependencies and all.
+
+### vitual machines vs Containers
+
+<table><tr><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;"><p><span>Virtiual Machine</span></p></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;"><p><span>Containers</span></p></div></div></td></tr><tr><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;"><p><span>An Abstraction of a Machine.</span></p><p><span>(Physical Hardware)</span></p></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;"><p><span>An isolated environment</span></p><p><span>for running an application</span></p></div></div></td></tr><tr><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;" spellcheck="false"><p><span>For running VMs need hypervisor</span></p></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;"><p><span>Uses an existing kernel or</span></p><p><span>same hardware</span></p></div></div></td></tr><tr><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;"><p><span>Resorce intesive</span></p></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div class="" contenteditable="false" style="margin: 10px 5px;"><p><span>Are lightweights</span></p></div></div></td></tr></table>
+
+### Docker Architecture
+
+Client -RESTapi-> Docker Engine
+
+A kernel manages application an hardware resources.
+
+Linux -Run-> Linux kernel
+Windows -Run-> Windows, Linux both
+MAC -Run-> Linux VM
