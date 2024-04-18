@@ -22,3 +22,47 @@ A kernel manages application an hardware resources.
 Linux -Run-> Linux kernel
 Windows -Run-> Windows, Linux both
 MAC -Run-> Linux VM
+
+### Docker Workflow
+
+- Application folder
+- Add Dockerfile to the application folder
+
+  - Dockerfile includes setof instructions
+  - this instructions helps to convert app into an image
+
+- Image would be:
+
+  - A cut-down os
+  - A runtime environment (e.g. Node, Python)
+  - Application files
+  - Third party liabraries
+  - Environment variables
+
+- Image loaded inside an containers
+
+  - Container is like a filesystem or an os
+
+- Dec ---> Registry(Docker hub) ---> Test/prod
+
+### Docker in action
+
+- Dockerfile structure
+
+  - create Dockerfile
+
+    - FROM baseImage
+
+    - WORKDIR /the/workdir/path
+
+    - COPY source dest
+
+    - CMD [ "executable" ]
+
+  - Commands
+    - Docker Build (Conver app into an image)
+      `docker build -t <name>`
+    - check images
+      `docker images` | `docker image ls`
+    - running an container
+      `docker run <image-name>`
