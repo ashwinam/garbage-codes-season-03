@@ -66,3 +66,33 @@ MAC -Run-> Linux VM
       `docker images` | `docker image ls`
     - running an container
       `docker run <image-name>`
+
+### Linux Commands
+
+- Why linux, because docker is based on linux file system
+
+**Linux Distributions**
+
+1. Ubuntu
+2. Debian
+3. Alpine
+4. Fedora
+5. CentOS
+
+and thousands more...
+
+**Running Linux**
+
+- Pull the ubuntu os from docker hub `docker pull ubuntu` | `docker run ubuntu`
+
+- check running processes or containers `docker ps`
+- check all processess `docker ps -a`
+- running container in interactive mode `docker run -it ubuntu` this will open the ubuntu shell
+
+- Shell Prompt `root@b7ed4cd7f7af:/#` in this line **root**=root user(all previleges) **b7ed4cd7f7af** is a machine name give by docker **/** forward slash is root file path and **#** means i have highest privileges
+
+- linux commands
+  - `echo hello` just like print in python
+  - `whoami` tells user name
+  - `echo $0` tells bash directory
+  - `history` returns commands history for using commands from list `!<commands number>`
