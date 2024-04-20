@@ -112,3 +112,16 @@ and thousands more...
     - `apt install <package name>`
     - if not found run `apt update` again reinstall
     - remove package `apt remove <package name>`
+
+### Linux File System
+
+- /
+  - /bin = All the application files
+  - /boot = booting related
+  - /dev = devices
+  - /etc = editable text configuration
+  - /home = user wise home directories
+  - /root = root user home directories
+  - /lib = library dependency
+  - /var = variables
+  - /proc = processors
