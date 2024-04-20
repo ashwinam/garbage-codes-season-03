@@ -96,3 +96,19 @@ and thousands more...
   - `whoami` tells user name
   - `echo $0` tells bash directory
   - `history` returns commands history for using commands from list `!<commands number>`
+
+**Managing packages**
+
+- Package managers
+
+  - NPM
+  - YARN
+  - PIP
+
+- In Ubuntu we have apt for package management
+  - Commands
+    - `apt` | `apt-get`
+    - `apt-list` - list of packages
+    - `apt install <package name>`
+    - if not found run `apt update` again reinstall
+    - remove package `apt remove <package name>`
