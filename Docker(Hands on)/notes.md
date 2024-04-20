@@ -125,3 +125,13 @@ and thousands more...
   - /lib = library dependency
   - /var = variables
   - /proc = processors
+
+### Navigating the file system
+
+- `pwd` = print working directory
+- `ls` = list of directories
+  - `ls -1` = vertical lising
+  - `ls -l` = list of full details
+  - `cd` = change directory
+  - `ls /bin` = checking list of directories in a particular folder
+  - `cd ~` = home directory for all users
