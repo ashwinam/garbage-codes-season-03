@@ -135,3 +135,16 @@ and thousands more...
   - `cd` = change directory
   - `ls /bin` = checking list of directories in a particular folder
   - `cd ~` = home directory for all users
+
+### Manipulating Files and Directories
+
+- Create Directory
+  - `mkdir <directory name>`
+- Move or Rename Directory or File
+  - `mv <current file/dir name> <changing name>`
+- create file
+  - `touch <filename>` or can create multiple files `touch <file1> <file2> <file3> ...`
+- remove file directory
+  - `rm <file or directory name>`
+  - multiple files `rm file*` it means file name start with file
+  - `rm -r <dir name>` this will delete content with directory
