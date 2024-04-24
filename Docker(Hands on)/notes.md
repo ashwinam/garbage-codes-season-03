@@ -148,3 +148,11 @@ and thousands more...
   - `rm <file or directory name>`
   - multiple files `rm file*` it means file name start with file
   - `rm -r <dir name>` this will delete content with directory
+
+### Editing and Viewing Files
+
+- Commands
+  - `nano <filename>` for editing file.
+  - `cat <file name>` for viewing file at once.
+  - `more <file name>` for viewing file as per the pages (use `space`) for next page
+  - `less <file name>` same as more but yo can go up and down using arrows
