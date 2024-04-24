@@ -156,3 +156,11 @@ and thousands more...
   - `cat <file name>` for viewing file at once.
   - `more <file name>` for viewing file as per the pages (use `space`) for next page
   - `less <file name>` same as more but yo can go up and down using arrows
+
+### Redirection
+
+- `cat file1.txt > file2.txt` so as we know that `cat` command prints out the output in a terminal, but using `>` this sign we can redirect the output to a new file. we can use multiple files as well.
+- E.X
+  - `cat file1.txt file2.txt > combined.txt`
+  - `echo hello > hello.txt`
+  - `ls -1 > files.txt`
