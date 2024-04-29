@@ -164,3 +164,15 @@ and thousands more...
   - `cat file1.txt file2.txt > combined.txt`
   - `echo hello > hello.txt`
   - `ls -1 > files.txt`
+
+
+### Searching for a Text
+
+**grep** : **Global Regular Expression Print**
+
+- Commands:
+  - `grep <text for search> <file name>`
+  - `grep -i hello file1.txt`
+  - `grep -i hello file*` starts with file
+  - `grep -i -r hello .` searching recursively in current directory
+  - `cat notes.md | grep grep`
