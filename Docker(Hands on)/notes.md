@@ -176,3 +176,12 @@ and thousands more...
   - `grep -i hello file*` starts with file
   - `grep -i -r hello .` searching recursively in current directory
   - `cat notes.md | grep grep`
+
+### Finding Files and Directories
+
+- Commands:
+  - `find` return all the files and directories.
+  - `find -type d` return all the directories
+  - `find -type f` return all the files
+  - `find -type f -name <case-sensitive file name>` return files to the particular name we can use patterns also.
+  - `find -type f -iname <incase-sensitive file name>`
