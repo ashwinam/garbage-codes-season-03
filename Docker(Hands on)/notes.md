@@ -185,3 +185,16 @@ and thousands more...
   - `find -type f` return all the files
   - `find -type f -name <case-sensitive file name>` return files to the particular name we can use patterns also.
   - `find -type f -iname <incase-sensitive file name>`
+
+
+### Chaining Commands
+
+- `; semicolon` example `mkdir test; cd test; echo done` this goes every commands and if one comands fails it goes to other command and execute it
+
+- `&& and` example `cd test && code .` need to be both command true, if one fails others are not going to execute
+
+- `|| or` example `mkdir test || echo first command not executed` either one going to executed
+
+- `| pipe` example  `ls /bin | less` first command are going to be input for next command
+
+- `\ backslash` this command uses for next line commands example `mkdir test;\ cd test;\ echo done`
