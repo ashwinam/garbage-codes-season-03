@@ -198,3 +198,11 @@ and thousands more...
 - `| pipe` example  `ls /bin | less` first command are going to be input for next command
 
 - `\ backslash` this command uses for next line commands example `mkdir test;\ cd test;\ echo done`
+
+### environment variables
+
+- Commands:
+  - `printenv` return all environment variables
+  - `printenv <variable name>` return specified environment variable
+  - `echo $<env var. name>` return specified environment variable
+  - `export <env key=value>` this sets new env variable
